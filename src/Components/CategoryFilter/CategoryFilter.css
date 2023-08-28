@@ -1,0 +1,34 @@
+.category-filter {
+    margin-top: 40px;
+    display: flex;
+}
+
+h1 {
+    margin: 0 6px;
+}
+
+.category-filter ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    overflow: scroll;
+}
+
+.category-filter ul::-webkit-scrollbar {
+    width: 0; /* Hide scrollbar */
+}
+
+.category-filter li {
+    font-size: 22px;
+    border: 2px solid black;
+    margin: 0 10px;
+    cursor: pointer;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.category-filter li.selected {
+    background-color: rgb(83, 0, 218);
+    color: #fff;
+}

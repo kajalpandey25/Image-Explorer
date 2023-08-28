@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+    background-color: aliceblue;
+}
+
+body {
+    overflow-x: hidden;
+    margin: 14px;
+}
+
+.App {
+    text-align: center;
+}
+
+.image-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+    row-gap: 4px;
+    margin: 10px;
+}
+
+#message {
+    font-size: 40px;
+    margin-top: 40px;
+}
